@@ -4,7 +4,9 @@ const router = express.Router()
 const fs = require('fs')
 
 router.get('/', (req,res)=>{
-    res.send('Food!')
+    res.render('home')
 })
+
+router.get
 
 module.exports = router

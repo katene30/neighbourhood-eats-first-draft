@@ -14,6 +14,9 @@
     "debug": "nodemon --inspect index --ignore data.json"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9"
+    "cheerio": "^1.0.0-rc.2",
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.9",
+    "supertest": "^3.4.1"
   }
 }

@@ -1,0 +1,34 @@
+{
+    "food": [
+        {
+            "id": 1,
+            "name": "Leroy Burger",
+            "price": "$15",
+            "shopName": "Leroy's",
+            "rate": 4,
+            "image": "/images/food1.png",
+            "description": "Standard beef burger with cheese.",
+            "review": "Finally a well seasoned patty, and they actually cooked it to my preference. This is a good go to burger... If you're willing to spend a bit."
+        },
+        {
+            "id": 2,
+            "name": "Chicken Katsu Donburi",
+            "price": "$9",
+            "shopName": "One Sushi",
+            "rate": 5,
+            "image": "/images/food2.png",
+            "description": "Standard katsu chicken donburi with noodles.",
+            "review": "I can not stress how good this is for the price. Firstly, the chicken is not dry and actually tasty on the three accounts that I have had it. And the sauce adds creaminess and sweetness that rounds the whole dish together."
+        },
+        {
+            "id": 3,
+            "name": "Big Papa Burger",
+            "price": "19.50",
+            "shopName": "Mama Brown",
+            "rate": 2,
+            "image": "/images/food3.png",
+            "description": "Fried chicken, bacon, beefy beef patty, cheese, lettuce, tomato, aioli.",
+            "review": "Okay, so this is a case of all show for me. The patty was tasty but IT WASN'T MEDIUM RARE. That definitely took the rate down for me. It's not worth that price."
+        }
+    ]
+}
