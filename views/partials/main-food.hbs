@@ -1,0 +1,13 @@
+{{#each food}}
+    <div>
+        <a href="/food/{{id}}"><img src="{{image}}" alt="{{description}}"></a>
+    </div>
+        <p>
+            {{name}}
+            <br>
+            {{description}}
+            <br>
+            Rating: {{rate}}
+        </p>
+    </div>
+{{/each}}

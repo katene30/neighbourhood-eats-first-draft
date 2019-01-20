@@ -15,4 +15,15 @@ router.get('/food', (req,res) => {
     })
 })
 
+router.get('/food/:id', (req,res) => {
+    fs.readFile('./data.json', 'utf8', (err, data) => {
+        if(err) return res.status(500).send("An error has occured :(")
+
+        var id = req.params.id
+        var foodOBj = JSON.parse(data)
+        var food = foodOBj.food.find((food) => food.id == id)
+        res.render('food', food)
+    })
+})
+
 module.exports = router
