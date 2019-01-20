@@ -23,7 +23,7 @@
         {
             "id": 3,
             "name": "Big Papa Burger",
-            "price": "19.50",
+            "price": "$19.50",
             "shopName": "Mama Brown",
             "rate": 2,
             "image": "/images/food3.png",
