@@ -1,10 +1,7 @@
 const express = require('express')
+const router = require('./routes')
 const server = express()
 
-server.get('/', (req,res)=>{
-    res.send('Hello World!')
-})
+server.use('/',router)
 
-server.listen(3000, () => {
-    console.log('Port running on', 3000)
-})
+module.exports = server

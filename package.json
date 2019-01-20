@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "debug": "nodemon --inspect server --ignore data.json"
+    "debug": "nodemon --inspect index --ignore data.json"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
