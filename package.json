@@ -1,0 +1,18 @@
+{
+  "name": "neighbourhood-eats",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/katene30/neighbourhood-eats.git",
+  "author": "Katene Jack Cotton <katenejack@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "debug": "nodemon --inspect server --ignore data.json"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
